@@ -59,3 +59,32 @@
 - Surface: Matplotlib notebook figure and Recharts HTML report chart with inline-SVG fallback.
 - Palette: single blue root, dark zero line, direct signed labels.
 - Outputs: `artifacts/confirmatory_results/station_heterogeneity.png` and `report/report.html`.
+## Toy routing trade-off
+
+- Question: How does the preference weight change the route on a small directed graph?
+- Takeaway: the route changes only after a threshold; stronger learned alignment can require additional path cost.
+- Family: relationship; connected scatter with consolidated regime labels.
+- Data: 6 declared weights and 2 unique toy route regimes.
+- Surface: static Matplotlib output in the mathematical notebook.
+- Palette: single blue root with direct labels.
+- Output: artifacts/research_story/toy_tradeoff.png.
+
+## Empirical validation Pareto frontier
+
+- Question: Which preference weights are efficient in median official score and travel-time cost?
+- Takeaway: weight 2 is on the frontier and inside the guardrail; weights 4 and 8 are dominated and outside the guardrail.
+- Family: relationship and uncertainty/benchmark; connected frontier with open dominated points and a guardrail reference.
+- Data: 7 weight-level aggregates from 916 chronological validation routes.
+- Surface: static Matplotlib output in the mathematical notebook.
+- Palette: blue frontier, gold open dominated points, dark-neutral guardrail.
+- Output: artifacts/research_story/empirical_pareto_frontier.png.
+
+## Structural and learned-routing ablation
+
+- Question: Does learned ordering add value beyond merely exhausting zones?
+- Takeaway: angular zone sweep also eliminates median re-entry but has much worse official score and travel time than learned pairwise-zone routing.
+- Family: comparison; two-panel categorical bar chart.
+- Data: 3 algorithmic methods over 926 untouched test routes.
+- Surface: static Matplotlib output in the mathematical notebook.
+- Palette: neutral nearest-neighbour, open blue structural baseline, blue learned method.
+- Output: artifacts/research_story/method_ablation.png.
