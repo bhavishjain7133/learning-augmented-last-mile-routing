@@ -1,0 +1,13 @@
+{
+  "actual_sequences_sha256": "3de44067242e8fa841d4b852db8809afaa23fe852e452ee4a2f54f0f0fb77e3c",
+  "median_travel_time_tolerance": 0.05,
+  "pairwise_minimum_support": 3,
+  "route_data_sha256": "da3a5d4e73b683d756111f0d9e6d3f20eb8e82adf7c89ee6ee0cb2239abd2f38",
+  "selected_preference_weight": 2.0,
+  "selection_rule": "Lowest validation median pairwise disagreement among weights with median supplied-travel-time increase <= 5% versus nearest neighbour.",
+  "test_routes_evaluated": 926,
+  "train_routes": 4270,
+  "travel_times_bytes": 1817146363,
+  "travel_times_sha256": "0023d7517380f15b611d77bc0f8a41a1b89459c7c12c37e88981ea16a2b99e2d",
+  "validation_routes_evaluated": 916
+}

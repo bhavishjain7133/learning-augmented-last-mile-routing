@@ -1,0 +1,240 @@
+{
+  "charts": [
+    {
+      "id": "validation-tradeoff",
+      "height": 360,
+      "type": "scatter",
+      "dataset": {
+        "id": "validation-tradeoff",
+        "title": "Validation trade-off",
+        "data": [
+          {
+            "weight": 0.0,
+            "travel_increase_pct": 2.4912385357648,
+            "disagreement": 0.5059391641040633,
+            "official_score": 0.0672068899126591
+          },
+          {
+            "weight": 0.25,
+            "travel_increase_pct": 2.65397438927108,
+            "disagreement": 0.4385019452796023,
+            "official_score": 0.0668848731914797
+          },
+          {
+            "weight": 0.5,
+            "travel_increase_pct": 3.25846000662948,
+            "disagreement": 0.4023004674230422,
+            "official_score": 0.0657188606646062
+          },
+          {
+            "weight": 1.0,
+            "travel_increase_pct": 3.71366050652693,
+            "disagreement": 0.3778171903355961,
+            "official_score": 0.0628844415975677
+          },
+          {
+            "weight": 2.0,
+            "travel_increase_pct": 4.53512904059041,
+            "disagreement": 0.3578614647420383,
+            "official_score": 0.0612899256950886
+          },
+          {
+            "weight": 4.0,
+            "travel_increase_pct": 5.61219541693094,
+            "disagreement": 0.343781857878405,
+            "official_score": 0.0631573230254685
+          },
+          {
+            "weight": 8.0,
+            "travel_increase_pct": 6.44912753751595,
+            "disagreement": 0.3375971009275322,
+            "official_score": 0.0652790081918237
+          }
+        ],
+        "chart_spec": {
+          "id": "validation-tradeoff",
+          "dataset": "validation-tradeoff",
+          "title": "Validation trade-off",
+          "type": "scatter",
+          "encodings": {
+            "x": {
+              "field": "travel_increase_pct",
+              "label": "Median travel-time increase (%)",
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "disagreement",
+              "label": "Median pairwise disagreement",
+              "type": "quantitative"
+            },
+            "tooltip": [
+              {
+                "field": "weight",
+                "label": "Preference weight",
+                "type": "quantitative"
+              },
+              {
+                "field": "official_score",
+                "label": "Median official score",
+                "type": "quantitative"
+              }
+            ]
+          },
+          "xAxisTitle": "Median travel-time increase vs nearest neighbour (%)",
+          "yAxisTitle": "Median pairwise disagreement",
+          "valueFormat": "number"
+        }
+      }
+    },
+    {
+      "id": "station-heterogeneity",
+      "height": 520,
+      "type": "bar",
+      "settings": {
+        "orientation": "horizontal",
+        "groupMode": "grouped"
+      },
+      "dataset": {
+        "id": "station-heterogeneity",
+        "title": "Station heterogeneity",
+        "data": [
+          {
+            "station_code": "DLA3",
+            "routes": 39,
+            "median_official_delta": -0.0228751984083257,
+            "improved_fraction": 0.8205128205128205
+          },
+          {
+            "station_code": "DAU1",
+            "routes": 33,
+            "median_official_delta": -0.023587955326641,
+            "improved_fraction": 0.7575757575757576
+          },
+          {
+            "station_code": "DLA4",
+            "routes": 30,
+            "median_official_delta": -0.0261381244728171,
+            "improved_fraction": 0.9333333333333332
+          },
+          {
+            "station_code": "DBO3",
+            "routes": 86,
+            "median_official_delta": -0.0363563034753779,
+            "improved_fraction": 0.8604651162790697
+          },
+          {
+            "station_code": "DLA8",
+            "routes": 68,
+            "median_official_delta": -0.0375893501952561,
+            "improved_fraction": 0.8235294117647058
+          },
+          {
+            "station_code": "DLA9",
+            "routes": 106,
+            "median_official_delta": -0.0376062376494498,
+            "improved_fraction": 0.8301886792452831
+          },
+          {
+            "station_code": "DLA5",
+            "routes": 24,
+            "median_official_delta": -0.039639795900201,
+            "improved_fraction": 0.9583333333333334
+          },
+          {
+            "station_code": "DSE4",
+            "routes": 67,
+            "median_official_delta": -0.0404430312778151,
+            "improved_fraction": 0.9104477611940298
+          },
+          {
+            "station_code": "DCH4",
+            "routes": 58,
+            "median_official_delta": -0.0411312962612573,
+            "improved_fraction": 0.8448275862068966
+          },
+          {
+            "station_code": "DLA7",
+            "routes": 170,
+            "median_official_delta": -0.0412268540059321,
+            "improved_fraction": 0.9117647058823528
+          },
+          {
+            "station_code": "DBO1",
+            "routes": 9,
+            "median_official_delta": -0.0457172668267749,
+            "improved_fraction": 1.0
+          },
+          {
+            "station_code": "DSE5",
+            "routes": 77,
+            "median_official_delta": -0.0519626393296892,
+            "improved_fraction": 0.9090909090909092
+          },
+          {
+            "station_code": "DCH3",
+            "routes": 41,
+            "median_official_delta": -0.0519997911076253,
+            "improved_fraction": 0.8780487804878049
+          },
+          {
+            "station_code": "DCH1",
+            "routes": 30,
+            "median_official_delta": -0.0672335013619867,
+            "improved_fraction": 0.9666666666666668
+          },
+          {
+            "station_code": "DBO2",
+            "routes": 45,
+            "median_official_delta": -0.0674925119926103,
+            "improved_fraction": 0.8666666666666667
+          },
+          {
+            "station_code": "DSE2",
+            "routes": 19,
+            "median_official_delta": -0.0808959133260268,
+            "improved_fraction": 1.0
+          },
+          {
+            "station_code": "DCH2",
+            "routes": 24,
+            "median_official_delta": -0.1092310909329328,
+            "improved_fraction": 0.9583333333333334
+          }
+        ],
+        "chart_spec": {
+          "id": "station-heterogeneity",
+          "dataset": "station-heterogeneity",
+          "title": "Station heterogeneity",
+          "type": "bar",
+          "encodings": {
+            "x": {
+              "field": "station_code",
+              "label": "Station",
+              "type": "nominal"
+            },
+            "y": {
+              "field": "median_official_delta",
+              "label": "Median official-score change",
+              "type": "quantitative"
+            },
+            "tooltip": [
+              {
+                "field": "routes",
+                "label": "Test routes",
+                "type": "quantitative"
+              },
+              {
+                "field": "improved_fraction",
+                "label": "Fraction improved",
+                "type": "quantitative"
+              }
+            ]
+          },
+          "xAxisTitle": "Station",
+          "yAxisTitle": "Pairwise-zone minus nearest neighbour",
+          "valueFormat": "number"
+        }
+      }
+    }
+  ]
+}

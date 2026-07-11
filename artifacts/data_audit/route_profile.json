@@ -1,0 +1,50 @@
+{
+  "date_max": "2018-08-26",
+  "date_min": "2018-07-19",
+  "duplicate_route_id_count": 0,
+  "invalid_station_count": 0,
+  "missing_dropoff_zone_count": 0,
+  "observed_sequence_coverage": 1.0,
+  "route_count": 6112,
+  "route_score_counts": {
+    "High": 2718,
+    "Low": 102,
+    "Medium": 3292
+  },
+  "sequence_stop_mismatch_count": 0,
+  "split_route_counts": {
+    "test": 926,
+    "train": 4270,
+    "validation": 916
+  },
+  "split_station_counts": {
+    "test": 17,
+    "train": 17,
+    "validation": 17
+  },
+  "station_count": 17,
+  "station_route_counts": {
+    "DAU1": 214,
+    "DBO1": 60,
+    "DBO2": 296,
+    "DBO3": 573,
+    "DCH1": 196,
+    "DCH2": 154,
+    "DCH3": 271,
+    "DCH4": 381,
+    "DLA3": 254,
+    "DLA4": 197,
+    "DLA5": 155,
+    "DLA7": 1133,
+    "DLA8": 448,
+    "DLA9": 701,
+    "DSE2": 125,
+    "DSE4": 446,
+    "DSE5": 508
+  },
+  "stops_per_route": {
+    "maximum": 238,
+    "median": 151.0,
+    "minimum": 33
+  }
+}

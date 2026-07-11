@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the repository and the Amazon dataset paper."
+title: "Learning from Drivers for Human-Centric Last-Mile Routing"
+type: software
+authors:
+  - family-names: Jain
+    given-names: Bhavish
+version: 0.1.0
+date-released: 2026-07-11
+license: MIT
+references:
+  - type: article
+    title: "2021 Amazon Last Mile Routing Research Challenge: Data Set"
+    authors:
+      - family-names: Merchan
+        given-names: Daniel
+      - family-names: Arora
+        given-names: Jatin
+      - family-names: Pachon
+        given-names: Julian
+      - family-names: Konduri
+        given-names: Karthik
+      - family-names: Winkenbach
+        given-names: Matthias
+      - family-names: Parks
+        given-names: Steven
+      - family-names: Noszek
+        given-names: Joseph
+    year: 2022
+    doi: 10.1287/trsc.2022.1173
+

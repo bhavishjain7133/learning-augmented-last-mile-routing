@@ -1,0 +1,23 @@
+{
+  "random_seed": 20260711,
+  "split": {
+    "train_fraction": 0.70,
+    "validation_fraction": 0.15,
+    "test_fraction": 0.15,
+    "group_column": "station_code",
+    "time_column": "date"
+  },
+  "model": {
+    "laplace_smoothing": 1.0,
+    "pairwise_minimum_support": 3,
+    "travel_weight": 1.0,
+    "median_cost_tolerance": 0.05,
+    "preference_weight_grid": [0.0, 0.1, 0.25, 0.5, 1.0, 2.0],
+    "pairwise_weight_grid": [0.0, 0.25, 0.5, 1.0, 2.0, 4.0, 8.0]
+  },
+  "evaluation": {
+    "exclude_station_from_sequence_metrics": true,
+    "report_by_station": true,
+    "report_by_route_quality": true
+  }
+}

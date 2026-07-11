@@ -1,0 +1,15 @@
+{
+  "test_routes": 926,
+  "selected_preference_weight": 2.0,
+  "official_score_median_nearest_neighbor": 0.1010960164497587,
+  "official_score_median_pairwise_zone": 0.06071055283348625,
+  "aggregate_median_score_reduction_fraction": 0.3994763100912354,
+  "paired_median_official_score_delta": -0.0421308832494161,
+  "paired_median_delta_bootstrap_95_ci": [
+    -0.0449610807755223,
+    -0.040425518827084186
+  ],
+  "route_fraction_improved": 0.8812095032397408,
+  "median_travel_time_increase_fraction": 0.04828670472171226,
+  "median_zone_reentry_reduction": 21.0
+}
