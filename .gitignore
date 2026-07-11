@@ -24,6 +24,8 @@ artifacts/*
 !artifacts/data_audit/stops_per_route.png
 !artifacts/confirmatory_results/
 !artifacts/confirmatory_results/**
+!artifacts/research_story/
+!artifacts/research_story/**
 !artifacts/travel_time_experiment/
 artifacts/travel_time_experiment/*
 !artifacts/travel_time_experiment/run_metadata.json

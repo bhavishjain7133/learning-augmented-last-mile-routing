@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite the repository and the Amazon dataset paper."
-title: "Learning from Drivers for Human-Centric Last-Mile Routing"
+title: "Learning-Augmented Human-Centric Last-Mile Routing"
 type: software
 authors:
   - family-names: Jain
@@ -28,4 +28,3 @@ references:
         given-names: Joseph
     year: 2022
     doi: 10.1287/trsc.2022.1173
-

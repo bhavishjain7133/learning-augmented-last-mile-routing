@@ -37,7 +37,7 @@ The exact route score follows the official 2021 Amazon Last Mile Routing Researc
         md("""
 ## Context & Methods
 
-The model learns how often one delivery zone precedes another, with station-level estimates backed off to parent-zone and global estimates when support is sparse. At construction time, a tunable preference score is combined with supplied travel time. Once a zone is entered, all of its stops are exhausted to prevent zone re-entry.
+The model learns how often one delivery zone precedes another, with station-level estimates backed off to parent-zone and global estimates when support is sparse. At construction time, a tunable preference score is combined with supplied travel time. Once a zone is entered, all of its stops are exhausted to prevent zone re-entry. The mathematical notebook derives this local decision rule and separates the structural contiguity constraint from the learned zone ordering.
 
 - Split: station-aware chronological 70/15/15 train/validation/test.
 - Selection: lowest validation median pairwise disagreement among weights satisfying the 5% median travel-time guardrail.
@@ -56,7 +56,8 @@ import pandas as pd
 ROOT = next(
     candidate
     for candidate in (Path.cwd(), *Path.cwd().parents)
-    if (candidate / "artifacts" / "travel_time_experiment").exists()
+    if (candidate / "pyproject.toml").exists()
+    and (candidate / "src" / "lastmile").exists()
 )
 SOURCE = ROOT / "artifacts" / "travel_time_experiment"
 OUT = ROOT / "artifacts" / "confirmatory_results"
@@ -285,5 +286,3 @@ display(station_summary.round(4))
 
 if __name__ == "__main__":
     main()
-
-
